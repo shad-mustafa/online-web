@@ -51,6 +51,9 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+.thecard:focus {
+  transform: rotateY(180deg)
+}
 
 body {
   margin: 0;
